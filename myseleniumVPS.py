@@ -1,9 +1,7 @@
 #https://skolo.online/documents/webscrapping/#pre-requisites
 
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver.chrome.options import Options
 import time
 
 chrome_options = webdriver.ChromeOptions()
@@ -28,4 +26,5 @@ pay.send_keys("5")
 click_button2 = driver.find_element('xpath', '/html/body/section[2]/div/div/div[1]/div[2]/div/div[2]/div/div[2]')
 click_button2.click()
 print(driver.current_url)
+
 # driver.quit()

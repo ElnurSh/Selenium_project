@@ -20,4 +20,5 @@ pay.send_keys("5")
 click_button2 = driver.find_element('xpath', '/html/body/section[2]/div/div/div[1]/div[2]/div/div[2]/div/div[2]')
 click_button2.click()
 print(driver.current_url)
+
 #driver.quit()
